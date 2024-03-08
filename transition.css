@@ -1,0 +1,27 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* transition-property: width , height;
+    transition-duration: 1s, 5s, 1s ;
+    transition-delay: 0ms;
+ */
+ /* transition: width 1s ease, height 5s ease, background-color 1s ease; */
+
+ /* margin: 0px;
+ padding: 10px; */
+
+ border: 2px solid black;
+ border-radius: 20px;
+ transition: all 1s ease-in-out;
+}
+
+.box:hover {
+    /* width: 400px;
+    height: 400px;
+    background-color: cadetblue;*/
+
+    border: 5px solid green;
+    border-radius: 30px;
+
+}

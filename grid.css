@@ -1,0 +1,13 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    display: grid;
+
+    grid-template-columns: 200px 150px 3fr 2fr;
+}
+
+.item {
+    background-color: tomato;
+    padding: 5px;
+    color: white;
+}

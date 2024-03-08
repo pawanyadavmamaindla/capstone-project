@@ -1,0 +1,35 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-evenly;
+}
+.item {
+    background-color: tomato;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+ .item-1 {
+    flex: 2;
+    order: 2;
+}
+.item-2 {
+    flex: 1;
+    order: 1;
+}
+.item-3 {
+    flex: 2;
+    order: 3;
+}
+.item-4 {
+    flex: 1;
+    order:42;
+}
+.item-5 {
+    flex: 2;
+    order: 5;
+} 

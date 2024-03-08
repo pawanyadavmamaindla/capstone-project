@@ -1,0 +1,3 @@
+h1::before {
+    content: url(//unsplash.it/32/32);
+}

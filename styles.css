@@ -1,0 +1,31 @@
+body {
+    margin: 20px;
+    
+}
+label {
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+progress {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(150, 84, 41);
+
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(150, 84, 41);
+}
+
+progress[value]::-webkit-progress-value {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: yellow;
+    background-image: linear-gradient(45deg, #98CD8D 25%, #F6F0CF 25%, #F6F0CF 50%, #98CD8D 50%, #98CD8D 75%, #F6F0CF 75%, #F6F0CF 100%);
+background-size: 56.57px 56.57px;
+}
